@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- Favicon code -->
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png"> -->
+        <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+
+        <link rel="stylesheet" type="text/css" href="fireworks.css" />
+        
+        <!-- defer loads html first then JS -->
+        <script defer type="text/javascript" src="fireworks.js"></script>
+
+        <title>Birthday halpuah</title>
+
+        <style>
+            .text-msg {
+                color: #fff;
+                position: fixed;
+                font-size: 35px;
+                text-align: center;
+            }
+             h2{
+                color: rgb(190, 32, 125);
+             }
+
+             @media screen and (max-width: 700px) {
+                
+                .text-msg{
+                    font-size: 20px;
+                }
+
+                
+             }
+
+              @media screen and (max-width: 450px) {
+                
+                .text-msg{
+                    font-size: 16px;
+                }
+
+                
+             }
+        </style>
+    </head>
+
+    <body id="canva">
+
+        <canvas id="canvas">
+
+               
+        </canvas>
+
+        <div class="portfolio">
+            <a href="https://share.google/wz5vRdOFbgbybPW3q" target="_blank">
+                Visit My Web page
+            </a>
+            
+        </div>
+
+     
+<div class="text-msg">
+                      <h1>Happy Birthday to you</h1>
+                      <h2>Kim kim</h2>
+                      <h4 id="sound">Click On The Screen for Sound</h4>
+            </div>
+    </body>
+
+    <script type="text/javascript">
+        document.getElementById("canva").onclick = function(){
+            document.getElementById("sound").style.display = "none";
+        }
+    </script>
+</html>
